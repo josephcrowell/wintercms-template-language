@@ -1,22 +1,22 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-  "scopeName": "text.html.octobercms",
-	"name": "October CMS Template",
+  "scopeName": "text.html.wintercms",
+	"name": "Winter CMS Template",
   "firstLineMatch": "^;;\\s*$",
   "patterns": [
     {
-      "contentName": "text.html.twig.octobercms",
+      "contentName": "text.html.twig.wintercms",
       "begin": "\\{#\\s*#\\}$",
       "beginCaptures": {
         "0": {
-          "name": "comment.line.begin.octobercms.twig"
+          "name": "comment.line.begin.wintercms.twig"
         }
       },
       "patterns": [
         {
           "patterns": [
             {
-              "include": "text.html.twig.octobercms"
+              "include": "text.html.twig.wintercms"
             }
           ],
           "name": "meta.embedded.twig"
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "contentName": "source.ini.octobercms",
+      "contentName": "source.ini.wintercms",
       "begin": "^(?=.|\\n)",
       "patterns": [
         {

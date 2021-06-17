@@ -12,10 +12,11 @@ Provides language support for [Winter CMS's](http://wintercms.com) .htm file bas
 ## Features
 * No dependencies
 * Full support for all of the Winter CMS template language
-* `;;` at the beginning of a file tells VS Code that your `.htm` file is for OctoberCMS
+* `;;` at the beginning of a file tells VS Code that your `.htm` file is for Winter CMS
 
 ## Issues
 * Commenting does not work properly (I tried, but please help)
 * The custom bracket autocompletion for Twig that I put in the Atom package does not work for VS Code (it may with a lot of tweaking)
 
-![Screenshot](https://github.com/dqsully/language-octobercms/blob/master/screenshot.png?raw=true)
+![Screenshot](https://github.com/dqsully/language-wintercms/blob/master/screenshot.png?raw=true)
+***REMOVED***

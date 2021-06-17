@@ -17,7 +17,7 @@
         |\{%\s+end(autoescape|block|embed|filter|for|if|macro|raw|sandbox|set|spaceless|trans|verbatim)
         )</string>
     <key>name</key>
-    <string>October CMS Template - Twig Section</string>
+    <string>Winter CMS Template - Twig Section</string>
     <key>patterns</key>
     <array>
         <dict>
@@ -2128,7 +2128,7 @@
         </dict>
     </dict>
     <key>scopeName</key>
-    <string>text.html.twig.octobercms</string>
+    <string>text.html.twig.wintercms</string>
     <key>uuid</key>
     <string>C220B028-86FF-44CB-8A59-27937FC83730</string>
 </dict>

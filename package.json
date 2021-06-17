@@ -5,7 +5,7 @@
     "repository": "https://github.com/josephcrowell/wintercms-template-language",
     "version": "0.3.0",
     "icon": "images/logo.png",
-    "publisher": "Joseph Crowell",
+    "publisher": "josephcrowell",
     "engines": {
         "vscode": "^1.12.0"
     },
