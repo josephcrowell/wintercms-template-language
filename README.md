@@ -1,6 +1,6 @@
-# octobercms-template-language package for Visual Studio Code
+# wintercms-template-language package for Visual Studio Code
 
-Provides language support for [October CMS's](http://octobercms.com) template file syntax.
+Provides language support for [Winter CMS's](http://wintercms.com) .htm file based twig template file syntax.
 **NOTE:** Because of the limitations of the VS Code grammar system, `{##}` **must** be at the beginning of your Twig/HTML script.
 
 ## Recent Changes
@@ -11,7 +11,7 @@ Provides language support for [October CMS's](http://octobercms.com) template fi
 
 ## Features
 * No dependencies
-* Full support for all of the OctoberCMS template language
+* Full support for all of the Winter CMS template language
 * `;;` at the beginning of a file tells VS Code that your `.htm` file is for OctoberCMS
 
 ## Issues
