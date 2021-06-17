@@ -1,11 +1,11 @@
 {
-    "name": "octobercms-template-language",
-    "displayName": "OctoberCMS Template Language",
-    "description": "Language support for October's CMS template file syntax.",
-    "repository": "https://github.com/dqsully/octobercms-template-language",
-    "version": "0.2.3",
+    "name": "wintercms-template-language",
+    "displayName": "Winter CMS Template Language",
+    "description": "Language support for Winter CMS's .htm file based twig template syntax.",
+    "repository": "https://github.com/josephcrowell/wintercms-template-language",
+    "version": "0.3.0",
     "icon": "images/logo.png",
-    "publisher": "dqsully",
+    "publisher": "Joseph Crowell",
     "engines": {
         "vscode": "^1.12.0"
     },
@@ -14,27 +14,27 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "octobercms",
-            "aliases": ["October CMS Template", "octobercms"],
+            "id": "wintercms",
+            "aliases": ["Winter CMS Template", "wintercms"],
             "extensions": [".htm"],
             "configuration": "./language-configuration.json"
         }, {
-            "id": "octobercms-twig",
+            "id": "wintercms-twig",
             "configuration": "./twig-language-configuration.json"
         }],
         "grammars": [{
-            "language": "octobercms",
-            "scopeName": "text.html.octobercms",
-            "path": "./syntaxes/octobercms.tmLanguage.json",
+            "language": "wintercms",
+            "scopeName": "text.html.wintercms",
+            "path": "./syntaxes/wintercms.tmLanguage.json",
             "embeddedLanguages": {
                 "source.ini": "ini",
                 "source.php": "php",
-                "text.html.twig.octobercms": "octobercms-twig"
+                "text.html.twig.wintercms": "wintercms-twig"
             }
         }, {
-            "language": "octobercms-twig",
-            "scopeName": "text.html.twig.octobercms",
-            "path": "./syntaxes/octobercms-twig.tmLanguage"
+            "language": "wintercms-twig",
+            "scopeName": "text.html.twig.wintercms",
+            "path": "./syntaxes/wintercms-twig.tmLanguage"
         }]
     }
 }
