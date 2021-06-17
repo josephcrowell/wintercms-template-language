@@ -3,7 +3,7 @@
     "displayName": "Winter CMS Template Language",
     "description": "Language support for Winter CMS's .htm file based twig template syntax.",
     "repository": "https://github.com/josephcrowell/wintercms-template-language",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "icon": "images/logo.png",
     "publisher": "josephcrowell",
     "engines": {
