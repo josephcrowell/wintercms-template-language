@@ -1,6 +1,6 @@
 # wintercms-template-language package for Visual Studio Code
 
-Provides language support for [Winter CMS's](http://wintercms.com) .htm file based twig template file syntax.
+Provides language support for [Winter CMS's](http://wintercms.com) .htm file based twig template syntax.
 **NOTE:** Because of the limitations of the VS Code grammar system, `{##}` **must** be at the beginning of your Twig/HTML script.
 
 ## Recent Changes
